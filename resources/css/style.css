@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-image: image(.resources/images/the-flatiron-building.png)
+  background-image: image(.resources/images/the-flatiron-building.png);
   background-repeat: repeat-y;
 }
 
@@ -15,7 +15,7 @@ ul {
   list-style-type: none;
 }
 
-.navigation li {
+#navigation li {
   font-family: Helvetica;
   font-size: 18px;
   color: white;
