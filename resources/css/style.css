@@ -2,9 +2,9 @@ body {
   text-align: center;
 }
 
-header {
+.header {
   width: 100%;
-  background-image: image("./resources/images/the-flatiron-building.png");
+  background-image: url("broadway/resources/images/the-flatiron-building.png");
 }
 
 h1 {
