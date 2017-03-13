@@ -2,8 +2,9 @@ body {
   text-align: center;
 }
 
-#header1 {
-  background-image: url("./resources/images/the-flatiron-building.png");
+header {
+  width: 100%;
+  background-image: image("./resources/images/the-flatiron-building.png");
 }
 
 h1 {
@@ -17,17 +18,18 @@ ul {
   list-style-type: none;
 }
 
-#navigation li {
+ul li {
   font-family: Helvetica;
   font-size: 18px;
   color: white;
   padding: 10px;
 }
 
-#navigation a {
+li a {
   font-family: Helvetica;
   font-size: 18px;
   color: white;
+  padding: 10px;
 }
 
 h2 {
